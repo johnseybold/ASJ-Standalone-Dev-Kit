@@ -20,13 +20,15 @@ public class GridLoggerTest {
         // check the lines
 
 
-        while (robotIsRunning) {
+ /*       while (robotIsRunning) {
             // Do some stuff
             // Now log the robot's position
             gridLogger.add("RobotX", robot.currentPos.x);
             gridLogger.add("Roboty", robot.currentPos.y);
             gridLogger.writeLn();
         }
+        
+  */
     }
 
     private class TestWriter implements LogWriter {
